@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style parent="@style/Widget.AppCompat.TextView" name="valuePanel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:background">@color/background</item>
+        <item name="android:gravity">right|bottom|center_vertical</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:maxLength">12</item>
+    </style>
+
+    <style parent="@style/Widget.AppCompat.Button" name="actionButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="backgroundTint">@color/btnBackground</item>
+        <item name="android:onClick">OnClickdigits</item>
+    </style>
+
+</resources>
